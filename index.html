@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAHBUBA MAHZABEEN</title>
+    <meta name="description"
+        content="Portfolio of Your Name — designer & developer of elegant, purposeful web experiences.">
+
+    <link rel="icon" type="image/png" href="./Images/MY LOGO Pic.jpeg">
+    <link rel="apple-touch-icon" href="./Images/MY LOGO Pic.jpeg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Jost:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-gold">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./Images/MY LOGO.png" alt="Your Name logo">
+                <span>MAHBUBA MAHZABEEN</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Date Time -->
+
+            <div class="container text-center mb-6">
+                <h5 id="clock"></h5>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="myself.html">Myself</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="education.html">Education</a></li>
+                            <li><a class="dropdown-item" href="experience.html">Work Experience</a></li>
+                            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+                            <li><a class="dropdown-item" href="goals.html">Goals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="works.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO SLIDER ================= -->
+    <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" style="background-image:url('./Images/Fashion\ Store.jfif');">
+                <div class="hero-caption">
+                    <span class="eyebrow">Featured Work</span>
+                    <h2>Project Aurora</h2>
+                    <p>A refined e-commerce experience, rebuilt for clarity, speed and quiet confidence at checkout.
+                    </p>
+                    <a href="works.html" class="btn btn-gold mt-3">View the project</a>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="background-image:url('./Images/Restaurant.jfif');">
+                <div class="hero-caption">
+                    <span class="eyebrow">Featured Work</span>
+                    <h2>Studio Nova</h2>
+                    <p>A portfolio platform for a creative studio, designed to feel less like a website and more like a
+                        gallery.</p>
+                    <a href="works.html" class="btn btn-gold mt-3">View the project</a>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="background-image:url('./Images/Agriculture.jfif');">
+                <div class="hero-caption">
+                    <span class="eyebrow">Featured Work</span>
+                    <h2>Project Lumen</h2>
+                    <p>A SaaS dashboard where dense data reads calmly — every number earns its place on the screen.</p>
+                    <a href="works.html" class="btn btn-gold mt-3">View the project</a>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- ================= MOTTO / NITIKOTHA ================= -->
+    <section class="motto-section">
+        <div class="motto-mark">"</div>
+        <p>Every line of code is a small promise — to be <span>honest</span>, to be clear and to be useful.
+            I don't chase trends; I build things that still make sense a year from now.</p>
+    </section>
+
+    <!-- ================= QUOTE SECTION ================= -->
+    <section class="quote-section">
+        <blockquote>
+            "Working with him felt less like hiring a developer and more like collaborating with someone who
+            genuinely cares how the details land — thoughtful, precise and quietly ambitious."
+        </blockquote>
+        <div class="quote-author">
+            <img src="./Images/Writer.jfif" alt="Alexandra Reyes">
+            <div class="text-start">
+                <span class="name">Alexandra Reyes</span>
+                <span class="role">Product Lead, Studio Nova</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <div class="footer-brand">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="./Images/MY LOGO.png" alt="Your Name logo">
+                        </a>
+                        <span>MAHBUBA MAHZABEEN</span>
+                    </div>
+                    <p>Designing and building elegant, purposeful web experiences.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contact</h6>
+                    <div class="footer-contact-item"><i class="bi bi-telephone-fill"></i> +880 1886-580079</div>
+                    <div class="footer-contact-item"><i class="bi bi-envelope-fill"></i> <a
+                            href="mailto:iqramahzabee@gmail.com">iqramahzabee@gmail.com</a></div>
+                </div>
+                <div class="col-md-4">
+                    <h6>Follow</h6>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mahbuba-mahzabeen-6a1262408?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.facebook.com/share/1BynC6sabe/" target="_blank" rel="noopener"
+                            aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/___mahzabeen___?igsh=MWk3dzBqaW16ZDhwMQ==" target="_blank"
+                            rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://github.com/iqramahzabee-art" target="_blank" rel="noopener"
+                            aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2026 MAHBUBA MAHZABEEN. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
